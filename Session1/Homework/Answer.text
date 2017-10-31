@@ -1,0 +1,17 @@
+1)	How to check a variable’s type?
+Dựa vào kiểu giá trị trả về hoặc kiểu giá trị được gán vào biến đó :
++ True và False là biến Boolean
++ Nếu phần đc gán vào biến nằm trong đoạn “…” hoặc ‘..’thì đó là biến kiểu string
++Nếu phần đc gán số nguyên (n = 4) đó là kiểu int,và nếu là kiểu số thực (m = 0.4) là float
++Nếu một biến được gán bởi 1 tập hơp các giá trị có thứ tự thì đó là biến kiểu tuple. Ngoài ra còn có kiểu List,cũng giống tuple nhưng có nhiều phương thức mà Tuple ko có. Set cũng là 1 tập hợp các phần tử nhưng lại ko có thứ tự
++Kiểu từ điển cũng là 1 tập hợp nhưng đó là tập hợp của những key value
+2)	In what cases, you will get SyntaxError from the compiler telling you that some of your variables have invalid names? Can you give 3 different examples of invalid names?
+Quy tắc đặt tên biến :
+Một tên biến hợp lệ là một chuỗi rỗng của các kí tự với chiều dài bất kỳ:
++ Các kí tự bắt đầu có thể là dấu gạch dưới "_" hoặc các chữ cái viết thường.
++ Sau kí tự bắt đầu có thể các chữ cái, chữ số hoặc các kí tự.
+Lưu ý: khi đặt tên biến là tránh đặt trùng với các từ khóa của Python: and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield.
+Một vài tên biến không họp lệ
+*x
+$h
+&d

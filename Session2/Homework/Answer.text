@@ -1,0 +1,15 @@
+1)What is Boolean?
+A boolean value is either true or false. It is named after the British Mathematiccian ,George
+Boole,who first formulate Boolean algebra
+ex:
+>>>6 == (3+3)
+>>>True
+>>>6 == 7
+>>>false
+>>> 4<3
+>>>flase
+2)What is flowChart?
+A flowchart is a type of diagram that represents an algorithm,workflow or process,showing the steps
+as boxes of various kinds ,and theirs order by connecting them with arrow
+. this Diagrammatic represention illstrulates a solution model to given problem
+flowcharts are used in analyzing,managing a process or program in various field 

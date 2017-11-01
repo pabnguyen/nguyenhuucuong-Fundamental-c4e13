@@ -13,3 +13,14 @@ A flowchart is a type of diagram that represents an algorithm,workflow or proces
 as boxes of various kinds ,and theirs order by connecting them with arrow
 . this Diagrammatic represention illstrulates a solution model to given problem
 flowcharts are used in analyzing,managing a process or program in various field 
+3)What is nested conditionals?
+One conditional can also be nested within another. For example, assume we have two integer variables, x and y. 
+The following pattern of selection shows how we might decide how they are related to each other.
+
+if x < y:
+    print("x is less than y")
+else:
+    if x > y:
+        print("x is greater than y")
+    else:
+        print("x and y must be equal")

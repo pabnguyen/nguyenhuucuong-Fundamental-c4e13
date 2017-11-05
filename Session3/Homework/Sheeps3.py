@@ -14,9 +14,7 @@ for i in range(0,months+1):
             mySheeps[j]+=50
         print(*mySheeps,sep =",")
     if i == months:
-        s = 0
-        for m in range(len(mySheeps)):
-            s+=mySheeps[m]
+        s = sum(mySheeps)
         print("My flock has size in total",s)
         print("I would get ",s*2,"$")
         break

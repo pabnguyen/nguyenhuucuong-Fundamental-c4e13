@@ -7,11 +7,8 @@ print(*mySheeps,sep = ',')
 # mySheeps.sort()
 # m  = mySheeps.pop()
 # print("My biggest Sheep is size",m,"Let's Shear it")
-max = mySheeps[0]
-for i in range(len(mySheeps)):
-    if max < mySheeps[i]:
-        max = mySheeps[i]
-print("My biggest Sheep is size",max,"Let's Shear it")
+maxSheep = max(mySheeps)
+print("My biggest Sheep is size",maxSheep,"Let's Shear it")
 
 #2.3. After Shearing
 Sheared = 8;

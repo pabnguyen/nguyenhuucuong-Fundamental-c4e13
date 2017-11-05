@@ -1,0 +1,7 @@
+1) What is nest list
+  a list within another list is said to nest
+  zs = ['Hello', 2 , 5, [10,20]]
+2) Can a list store both intergers and string in it?
+  The elements of list don't have same type.The following conatians a string,a float,an interger
+  and another List
+  zs1 = ['Cuong', 4, 6]

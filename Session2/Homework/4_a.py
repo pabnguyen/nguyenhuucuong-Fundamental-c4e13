@@ -1,2 +1,2 @@
-for i in range (40):
+for i in range (101):
     print('*',end = ' ')

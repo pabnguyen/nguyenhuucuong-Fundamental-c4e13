@@ -73,7 +73,6 @@ a = True
 while a:
     your_guess = input("Your word? ")
     if your_guess in list_solution:
-        print(statues[0])
         print("You Right!")
         for index, item in enumerate(list_solution):
             if list_solution[index] == your_guess:

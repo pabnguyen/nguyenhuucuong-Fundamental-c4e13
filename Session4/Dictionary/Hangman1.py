@@ -73,10 +73,10 @@ while a:
 
         print(*mylist1,sep = " ")
         if count1 == len(list_solution):
-            print("You Win")
+            print("You are WINNER!")
             break
     else:
-        print("You Wrong")
+        print("You Were Wrong")
         count += 1
         if count == 1:
             print(statues[0])
@@ -88,5 +88,5 @@ while a:
             print(statues[3])
         else:
             print(statues[4])
-            print("you lose")
+            print("YOU ARE LOSER")
             a = False

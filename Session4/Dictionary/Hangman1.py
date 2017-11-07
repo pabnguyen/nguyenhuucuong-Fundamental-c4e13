@@ -8,14 +8,6 @@ statues = [
 """
 |------
 |     o
-|
-|
-|
-"""
-,
-"""
-|------
-|     o
 |     |
 |
 |
@@ -87,14 +79,14 @@ while a:
         print("You Wrong")
         count += 1
         if count == 1:
-            print(statues[1])
+            print(statues[0])
         elif count == 2:
-            print(statues[2])
+            print(statues[1])
         elif count == 3:
-            print(statues[3])
+            print(statues[2])
         elif count == 4:
-            print(statues[4])
+            print(statues[3])
         else:
-            print(statues[5])
+            print(statues[4])
             print("you lose")
             a = False

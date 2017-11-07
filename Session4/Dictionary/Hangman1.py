@@ -77,7 +77,7 @@ while a:
         for index, item in enumerate(list_solution):
             if list_solution[index] == your_guess:
                 mylist1[index] = your_guess
-        print(mylist1)
+        print(*mylist1,sep =" " )
     else:
         print("You Wrong")
         if count == 0:

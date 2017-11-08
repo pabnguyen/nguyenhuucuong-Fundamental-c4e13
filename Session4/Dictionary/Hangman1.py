@@ -63,9 +63,12 @@ count = 0
 count1 = 0
 a = True
 while a:
-    your_guess = input("Your word? ")
+    your_guess = input("Your word? ").lower()
     if your_guess in list_solution:
-        print("You Right!")
+        if your_guess in mylist1:
+            print("You Guessed")
+            continue
+        print("You Right!")      
         for index, item in enumerate(list_solution):
             if list_solution[index] == your_guess:
                 mylist1[index] = your_guess

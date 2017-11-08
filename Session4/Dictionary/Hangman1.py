@@ -48,7 +48,7 @@ statues = [
 ]
 import random
 
-mylist = ['apple', 'banana','Orange']
+mylist = ['apple', 'banana','orange']
 
 
 solution = random.choice(mylist)

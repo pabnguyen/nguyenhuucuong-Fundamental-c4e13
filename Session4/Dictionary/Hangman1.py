@@ -63,12 +63,20 @@ count = 0
 count1 = 0
 a = True
 while a:
+<<<<<<< HEAD
     your_guess = input("Your word? ").lower();
+=======
+    your_guess = input("Your word? ").lower()
+>>>>>>> a899931a0c52fe71f36b1a45b0e2cf20f46081f9
     if your_guess in list_solution:
         if your_guess in mylist1:
             print("You Guessed")
             continue
+<<<<<<< HEAD
         print("You Right!")
+=======
+        print("You Right!")      
+>>>>>>> a899931a0c52fe71f36b1a45b0e2cf20f46081f9
         for index, item in enumerate(list_solution):
             if list_solution[index] == your_guess:
                 mylist1[index] = your_guess
@@ -76,10 +84,17 @@ while a:
 
         print(*mylist1,sep = " ")
         if count1 == len(list_solution):
+<<<<<<< HEAD
             print("You Win")
             break
     else:
         print("You Wrong")
+=======
+            print("You are WINNER!")
+            break
+    else:
+        print("You Were Wrong")
+>>>>>>> a899931a0c52fe71f36b1a45b0e2cf20f46081f9
         count += 1
         if count == 1:
             print(statues[0])
@@ -91,5 +106,9 @@ while a:
             print(statues[3])
         else:
             print(statues[4])
+<<<<<<< HEAD
             print("you lose")
+=======
+            print("YOU ARE LOSER")
+>>>>>>> a899931a0c52fe71f36b1a45b0e2cf20f46081f9
             a = False

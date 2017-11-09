@@ -25,7 +25,7 @@ for line in myf:
 keys = list(count.keys())
 keys.sort()
 
-# save the word count analysis to a file
+# Viết vào file alice_word.txt
 out = open('alice_words.txt', 'w')
 out.write("Word \t \t \t \tCount\n")
 out.write("====================\n")
